@@ -1,0 +1,791 @@
+2026-04-23 23:15:07,827 - SchedulerLogger - INFO - Scheduler initialized with 4 cores using ml_balanced policy
+2026-04-23 23:15:09,314 - SchedulerLogger - DEBUG - Process P0001 added to ready queue
+2026-04-23 23:15:09,314 - SchedulerLogger - INFO - Scheduler started
+2026-04-23 23:15:09,442 - SchedulerLogger - INFO - Process P0001 dispatched to Core 0
+2026-04-23 23:15:09,583 - SchedulerLogger - INFO - Process P0001 completed on Core 0 (Turnaround: 0.27s)
+2026-04-23 23:15:10,280 - SchedulerLogger - DEBUG - Process P0002 added to ready queue
+2026-04-23 23:15:10,295 - SchedulerLogger - INFO - Process P0002 dispatched to Core 0
+2026-04-23 23:15:10,423 - SchedulerLogger - INFO - Process P0002 completed on Core 0 (Turnaround: 0.14s)
+2026-04-23 23:15:10,553 - SchedulerLogger - DEBUG - Process P0003 added to ready queue
+2026-04-23 23:15:10,575 - SchedulerLogger - INFO - Process P0003 dispatched to Core 0
+2026-04-23 23:15:10,908 - SchedulerLogger - DEBUG - Process P0004 added to ready queue
+2026-04-23 23:15:10,952 - SchedulerLogger - INFO - Process P0004 dispatched to Core 1
+2026-04-23 23:15:11,045 - SchedulerLogger - INFO - Process P0003 completed on Core 0 (Turnaround: 0.49s)
+2026-04-23 23:15:11,304 - SchedulerLogger - DEBUG - Process P0005 added to ready queue
+2026-04-23 23:15:11,333 - SchedulerLogger - INFO - Process P0004 completed on Core 1 (Turnaround: 0.43s)
+2026-04-23 23:15:11,338 - SchedulerLogger - INFO - Process P0005 dispatched to Core 0
+2026-04-23 23:15:11,339 - SchedulerLogger - INFO - Load imbalance detected: 1.37. Rebalancing...
+2026-04-23 23:15:11,339 - SchedulerLogger - INFO - Migrated process P0005 from Core 0 to Core 2
+2026-04-23 23:15:11,569 - SchedulerLogger - DEBUG - Process P0006 added to ready queue
+2026-04-23 23:15:11,603 - SchedulerLogger - INFO - Process P0006 dispatched to Core 0
+2026-04-23 23:15:11,803 - SchedulerLogger - INFO - Process P0005 completed on Core 0 (Turnaround: 0.50s)
+2026-04-23 23:15:11,808 - SchedulerLogger - DEBUG - Process P0007 added to ready queue
+2026-04-23 23:15:11,810 - SchedulerLogger - ERROR - Scheduler error: Item I01F not found
+2026-04-23 23:15:11,810 - SchedulerLogger - DEBUG - Process P0008 added to ready queue
+2026-04-23 23:15:11,841 - SchedulerLogger - INFO - Process P0006 completed on Core 0 (Turnaround: 0.27s)
+2026-04-23 23:15:11,853 - SchedulerLogger - INFO - Process P0007 dispatched to Core 0
+2026-04-23 23:15:11,854 - SchedulerLogger - INFO - Process P0008 dispatched to Core 1
+2026-04-23 23:15:12,013 - SchedulerLogger - INFO - Process P0007 completed on Core 0 (Turnaround: 0.21s)
+2026-04-23 23:15:12,061 - SchedulerLogger - INFO - Process P0008 completed on Core 1 (Turnaround: 0.25s)
+2026-04-23 23:15:12,415 - SchedulerLogger - DEBUG - Process P0009 added to ready queue
+2026-04-23 23:15:12,594 - SchedulerLogger - INFO - Process P0009 dispatched to Core 0
+2026-04-23 23:15:12,794 - SchedulerLogger - DEBUG - Process P0010 added to ready queue
+2026-04-23 23:15:12,871 - SchedulerLogger - INFO - Process P0009 completed on Core 0 (Turnaround: 0.46s)
+2026-04-23 23:15:12,905 - SchedulerLogger - INFO - Process P0010 dispatched to Core 0
+2026-04-23 23:15:13,003 - SchedulerLogger - INFO - Process P0010 completed on Core 0 (Turnaround: 0.21s)
+2026-04-23 23:15:13,442 - SchedulerLogger - DEBUG - Process P0011 added to ready queue
+2026-04-23 23:15:13,552 - SchedulerLogger - INFO - Process P0011 dispatched to Core 0
+2026-04-23 23:15:13,553 - SchedulerLogger - INFO - Load imbalance detected: 0.89. Rebalancing...
+2026-04-23 23:15:13,553 - SchedulerLogger - INFO - Migrated process P0011 from Core 0 to Core 3
+2026-04-23 23:15:13,630 - SchedulerLogger - INFO - Process P0011 completed on Core 0 (Turnaround: 0.19s)
+2026-04-23 23:15:13,768 - SchedulerLogger - DEBUG - Process P0012 added to ready queue
+2026-04-23 23:15:13,896 - SchedulerLogger - INFO - Process P0012 dispatched to Core 0
+2026-04-23 23:15:14,179 - SchedulerLogger - DEBUG - Process P0013 added to ready queue
+2026-04-23 23:15:14,259 - SchedulerLogger - INFO - Process P0013 dispatched to Core 1
+2026-04-23 23:15:14,346 - SchedulerLogger - INFO - Process P0013 completed on Core 1 (Turnaround: 0.17s)
+2026-04-23 23:15:14,392 - SchedulerLogger - INFO - Process P0012 completed on Core 0 (Turnaround: 0.62s)
+2026-04-23 23:15:14,644 - SchedulerLogger - DEBUG - Process P0014 added to ready queue
+2026-04-23 23:15:14,711 - SchedulerLogger - INFO - Process P0014 dispatched to Core 0
+2026-04-23 23:15:15,045 - SchedulerLogger - DEBUG - Process P0015 added to ready queue
+2026-04-23 23:15:15,182 - SchedulerLogger - INFO - Process P0014 completed on Core 0 (Turnaround: 0.54s)
+2026-04-23 23:15:15,227 - SchedulerLogger - INFO - Process P0015 dispatched to Core 0
+2026-04-23 23:15:15,596 - SchedulerLogger - INFO - Process P0015 completed on Core 0 (Turnaround: 0.55s)
+2026-04-23 23:15:15,800 - SchedulerLogger - DEBUG - Process P0016 added to ready queue
+2026-04-23 23:15:15,803 - SchedulerLogger - INFO - Process P0016 dispatched to Core 0
+2026-04-23 23:15:15,804 - SchedulerLogger - INFO - Load imbalance detected: 0.56. Rebalancing...
+2026-04-23 23:15:15,805 - SchedulerLogger - INFO - Migrated process P0016 from Core 0 to Core 1
+2026-04-23 23:15:16,106 - SchedulerLogger - INFO - Process P0016 completed on Core 0 (Turnaround: 0.31s)
+2026-04-23 23:15:16,128 - SchedulerLogger - DEBUG - Process P0017 added to ready queue
+2026-04-23 23:15:16,292 - SchedulerLogger - INFO - Process P0017 dispatched to Core 0
+2026-04-23 23:15:16,456 - SchedulerLogger - INFO - Process P0017 completed on Core 0 (Turnaround: 0.33s)
+2026-04-23 23:15:16,494 - SchedulerLogger - DEBUG - Process P0018 added to ready queue
+2026-04-23 23:15:16,497 - SchedulerLogger - ERROR - Scheduler error: Item I112 not found
+2026-04-23 23:15:16,498 - SchedulerLogger - DEBUG - Process P0019 added to ready queue
+2026-04-23 23:15:16,571 - SchedulerLogger - ERROR - Scheduler error: Item I114 not found
+2026-04-23 23:15:16,572 - SchedulerLogger - DEBUG - Process P0020 added to ready queue
+2026-04-23 23:15:16,629 - SchedulerLogger - ERROR - Scheduler error: Item I117 not found
+2026-04-23 23:15:16,630 - SchedulerLogger - DEBUG - Process P0021 added to ready queue
+2026-04-23 23:15:16,671 - SchedulerLogger - ERROR - Scheduler error: Item I11A not found
+2026-04-23 23:15:16,673 - SchedulerLogger - DEBUG - Process P0022 added to ready queue
+2026-04-23 23:15:16,686 - SchedulerLogger - ERROR - Scheduler error: Item I11E not found
+2026-04-23 23:15:16,689 - SchedulerLogger - DEBUG - Process P0023 added to ready queue
+2026-04-23 23:15:16,703 - SchedulerLogger - ERROR - Scheduler error: Item I121 not found
+2026-04-23 23:15:16,704 - SchedulerLogger - DEBUG - Process P0024 added to ready queue
+2026-04-23 23:15:16,838 - SchedulerLogger - INFO - Process P0021 dispatched to Core 0
+2026-04-23 23:15:16,944 - SchedulerLogger - INFO - Process P0021 completed on Core 0 (Turnaround: 0.31s)
+2026-04-23 23:15:17,212 - SchedulerLogger - DEBUG - Process P0025 added to ready queue
+2026-04-23 23:15:17,533 - SchedulerLogger - INFO - Process P0023 dispatched to Core 0
+2026-04-23 23:15:17,625 - SchedulerLogger - INFO - Process P0023 completed on Core 0 (Turnaround: 0.94s)
+2026-04-23 23:15:17,999 - SchedulerLogger - DEBUG - Process P0026 added to ready queue
+2026-04-23 23:15:18,269 - SchedulerLogger - INFO - Process P0025 dispatched to Core 0
+2026-04-23 23:15:18,271 - SchedulerLogger - INFO - Load imbalance detected: 0.38. Rebalancing...
+2026-04-23 23:15:18,493 - SchedulerLogger - DEBUG - Process P0027 added to ready queue
+2026-04-23 23:15:18,641 - SchedulerLogger - INFO - Process P0025 completed on Core 0 (Turnaround: 1.43s)
+2026-04-23 23:15:18,840 - SchedulerLogger - INFO - Process P0027 dispatched to Core 0
+2026-04-23 23:15:19,118 - SchedulerLogger - DEBUG - Process P0028 added to ready queue
+2026-04-23 23:15:19,158 - SchedulerLogger - INFO - Process P0027 completed on Core 0 (Turnaround: 0.66s)
+2026-04-23 23:15:19,536 - SchedulerLogger - INFO - Process P0019 dispatched to Core 0
+2026-04-23 23:15:19,704 - SchedulerLogger - INFO - Process P0019 completed on Core 0 (Turnaround: 3.21s)
+2026-04-23 23:15:19,769 - SchedulerLogger - DEBUG - Process P0029 added to ready queue
+2026-04-23 23:15:19,797 - SchedulerLogger - ERROR - Scheduler error: Item I1CE not found
+2026-04-23 23:15:19,798 - SchedulerLogger - DEBUG - Process P0030 added to ready queue
+2026-04-23 23:15:19,819 - SchedulerLogger - ERROR - Scheduler error: Item I1D3 not found
+2026-04-23 23:15:19,822 - SchedulerLogger - INFO - Process P0030 dispatched to Core 0
+2026-04-23 23:15:20,130 - SchedulerLogger - INFO - Process P0030 completed on Core 0 (Turnaround: 0.33s)
+2026-04-23 23:15:20,589 - SchedulerLogger - DEBUG - Process P0031 added to ready queue
+2026-04-23 23:15:21,101 - SchedulerLogger - INFO - Process P0031 dispatched to Core 0
+2026-04-23 23:15:21,298 - SchedulerLogger - INFO - Process P0031 completed on Core 0 (Turnaround: 0.71s)
+2026-04-23 23:15:21,364 - SchedulerLogger - DEBUG - Process P0032 added to ready queue
+2026-04-23 23:15:21,388 - SchedulerLogger - ERROR - Scheduler error: Item I22A not found
+2026-04-23 23:15:21,388 - SchedulerLogger - INFO - Process P0029 dispatched to Core 0
+2026-04-23 23:15:21,610 - SchedulerLogger - INFO - Process P0029 completed on Core 0 (Turnaround: 1.84s)
+2026-04-23 23:15:21,955 - SchedulerLogger - DEBUG - Process P0033 added to ready queue
+2026-04-23 23:15:22,437 - SchedulerLogger - INFO - Process P0033 dispatched to Core 0
+2026-04-23 23:15:22,604 - SchedulerLogger - INFO - Process P0033 completed on Core 0 (Turnaround: 0.65s)
+2026-04-23 23:15:22,680 - SchedulerLogger - DEBUG - Process P0034 added to ready queue
+2026-04-23 23:15:22,696 - SchedulerLogger - ERROR - Scheduler error: Item I298 not found
+2026-04-23 23:15:22,697 - SchedulerLogger - INFO - Process P0034 dispatched to Core 0
+2026-04-23 23:15:22,851 - SchedulerLogger - INFO - Process P0034 completed on Core 0 (Turnaround: 0.17s)
+2026-04-23 23:15:23,178 - SchedulerLogger - DEBUG - Process P0035 added to ready queue
+2026-04-23 23:15:23,766 - SchedulerLogger - INFO - Process P0022 dispatched to Core 0
+2026-04-23 23:15:23,973 - SchedulerLogger - DEBUG - Process P0036 added to ready queue
+2026-04-23 23:15:24,145 - SchedulerLogger - INFO - Process P0022 completed on Core 0 (Turnaround: 7.47s)
+2026-04-23 23:15:24,554 - SchedulerLogger - INFO - Process P0036 dispatched to Core 0
+2026-04-23 23:15:24,728 - SchedulerLogger - INFO - Process P0036 completed on Core 0 (Turnaround: 0.75s)
+2026-04-23 23:15:24,778 - SchedulerLogger - DEBUG - Process P0037 added to ready queue
+2026-04-23 23:15:25,045 - SchedulerLogger - INFO - Process P0028 dispatched to Core 0
+2026-04-23 23:15:25,253 - SchedulerLogger - DEBUG - Process P0038 added to ready queue
+2026-04-23 23:15:25,441 - SchedulerLogger - INFO - Process P0028 completed on Core 0 (Turnaround: 6.32s)
+2026-04-23 23:15:25,699 - SchedulerLogger - INFO - Process P0038 dispatched to Core 0
+2026-04-23 23:15:25,781 - SchedulerLogger - INFO - Process P0038 completed on Core 0 (Turnaround: 0.53s)
+2026-04-23 23:15:26,044 - SchedulerLogger - DEBUG - Process P0039 added to ready queue
+2026-04-23 23:15:26,764 - SchedulerLogger - INFO - Process P0039 dispatched to Core 0
+2026-04-23 23:15:26,995 - SchedulerLogger - DEBUG - Process P0040 added to ready queue
+2026-04-23 23:15:27,092 - SchedulerLogger - INFO - Process P0039 completed on Core 0 (Turnaround: 1.05s)
+2026-04-23 23:15:27,805 - SchedulerLogger - INFO - Process P0032 dispatched to Core 0
+2026-04-23 23:15:28,053 - SchedulerLogger - DEBUG - Process P0041 added to ready queue
+2026-04-23 23:15:28,212 - SchedulerLogger - INFO - Process P0032 completed on Core 0 (Turnaround: 6.85s)
+2026-04-23 23:15:28,551 - SchedulerLogger - INFO - Process P0041 dispatched to Core 0
+2026-04-23 23:15:28,812 - SchedulerLogger - DEBUG - Process P0042 added to ready queue
+2026-04-23 23:15:28,949 - SchedulerLogger - INFO - Process P0041 completed on Core 0 (Turnaround: 0.90s)
+2026-04-23 23:15:29,585 - SchedulerLogger - INFO - Process P0042 dispatched to Core 0
+2026-04-23 23:15:29,693 - SchedulerLogger - INFO - Process P0042 completed on Core 0 (Turnaround: 0.88s)
+2026-04-23 23:15:29,892 - SchedulerLogger - DEBUG - Process P0043 added to ready queue
+2026-04-23 23:15:30,645 - SchedulerLogger - INFO - Process P0043 dispatched to Core 0
+2026-04-23 23:15:30,732 - SchedulerLogger - INFO - Process P0043 completed on Core 0 (Turnaround: 0.84s)
+2026-04-23 23:15:31,270 - SchedulerLogger - DEBUG - Process P0044 added to ready queue
+2026-04-23 23:15:32,095 - SchedulerLogger - INFO - Process P0044 dispatched to Core 0
+2026-04-23 23:15:32,300 - SchedulerLogger - DEBUG - Process P0045 added to ready queue
+2026-04-23 23:15:32,356 - SchedulerLogger - INFO - Process P0044 completed on Core 0 (Turnaround: 1.09s)
+2026-04-23 23:15:33,579 - SchedulerLogger - INFO - Process P0045 dispatched to Core 0
+2026-04-23 23:15:33,782 - SchedulerLogger - INFO - Process P0045 completed on Core 0 (Turnaround: 1.48s)
+2026-04-23 23:15:33,814 - SchedulerLogger - DEBUG - Process P0046 added to ready queue
+2026-04-23 23:15:33,823 - SchedulerLogger - ERROR - Scheduler error: Item I528 not found
+2026-04-23 23:15:33,836 - SchedulerLogger - INFO - Process P0040 dispatched to Core 0
+2026-04-23 23:15:34,327 - SchedulerLogger - INFO - Process P0040 completed on Core 0 (Turnaround: 7.33s)
+2026-04-23 23:15:34,338 - SchedulerLogger - DEBUG - Process P0047 added to ready queue
+2026-04-23 23:15:34,353 - SchedulerLogger - ERROR - Scheduler error: Item I558 not found
+2026-04-23 23:15:34,353 - SchedulerLogger - INFO - Process P0047 dispatched to Core 0
+2026-04-23 23:15:34,804 - SchedulerLogger - INFO - Process P0047 completed on Core 0 (Turnaround: 0.47s)
+2026-04-23 23:15:35,138 - SchedulerLogger - DEBUG - Process P0048 added to ready queue
+2026-04-23 23:15:35,663 - SchedulerLogger - INFO - Process P0048 dispatched to Core 0
+2026-04-23 23:15:35,908 - SchedulerLogger - DEBUG - Process P0049 added to ready queue
+2026-04-23 23:15:35,987 - SchedulerLogger - INFO - Process P0048 completed on Core 0 (Turnaround: 0.85s)
+2026-04-23 23:15:36,010 - SchedulerLogger - ERROR - Scheduler error: Item I5F1 not found
+2026-04-23 23:15:36,012 - SchedulerLogger - INFO - Process P0049 dispatched to Core 0
+2026-04-23 23:15:36,339 - SchedulerLogger - INFO - Process P0049 completed on Core 0 (Turnaround: 0.43s)
+2026-04-23 23:15:36,715 - SchedulerLogger - DEBUG - Process P0050 added to ready queue
+2026-04-23 23:15:37,361 - SchedulerLogger - INFO - Process P0050 dispatched to Core 0
+2026-04-23 23:15:37,418 - SchedulerLogger - INFO - Process P0050 completed on Core 0 (Turnaround: 0.70s)
+2026-04-23 23:15:38,211 - SchedulerLogger - DEBUG - Process P0051 added to ready queue
+2026-04-23 23:15:39,463 - SchedulerLogger - INFO - Process P0051 dispatched to Core 0
+2026-04-23 23:15:39,546 - SchedulerLogger - INFO - Process P0051 completed on Core 0 (Turnaround: 1.33s)
+2026-04-23 23:15:39,948 - SchedulerLogger - DEBUG - Process P0052 added to ready queue
+2026-04-23 23:15:40,469 - SchedulerLogger - INFO - Process P0035 dispatched to Core 0
+2026-04-23 23:15:40,699 - SchedulerLogger - DEBUG - Process P0053 added to ready queue
+2026-04-23 23:15:40,827 - SchedulerLogger - INFO - Process P0035 completed on Core 0 (Turnaround: 17.65s)
+2026-04-23 23:15:42,202 - SchedulerLogger - INFO - Process P0053 dispatched to Core 0
+2026-04-23 23:15:42,444 - SchedulerLogger - DEBUG - Process P0054 added to ready queue
+2026-04-23 23:15:42,568 - SchedulerLogger - INFO - Process P0053 completed on Core 0 (Turnaround: 1.87s)
+2026-04-23 23:15:43,369 - SchedulerLogger - INFO - Process P0054 dispatched to Core 0
+2026-04-23 23:15:43,457 - SchedulerLogger - INFO - Process P0054 completed on Core 0 (Turnaround: 1.01s)
+2026-04-23 23:15:43,770 - SchedulerLogger - DEBUG - Process P0055 added to ready queue
+2026-04-23 23:15:44,359 - SchedulerLogger - INFO - Process P0055 dispatched to Core 0
+2026-04-23 23:15:44,606 - SchedulerLogger - DEBUG - Process P0056 added to ready queue
+2026-04-23 23:15:44,668 - SchedulerLogger - INFO - Process P0055 completed on Core 0 (Turnaround: 0.90s)
+2026-04-23 23:15:45,846 - SchedulerLogger - INFO - Process P0056 dispatched to Core 0
+2026-04-23 23:15:46,054 - SchedulerLogger - DEBUG - Process P0057 added to ready queue
+2026-04-23 23:15:46,232 - SchedulerLogger - INFO - Process P0056 completed on Core 0 (Turnaround: 1.63s)
+2026-04-23 23:15:47,083 - SchedulerLogger - INFO - Process P0057 dispatched to Core 0
+2026-04-23 23:15:47,246 - SchedulerLogger - INFO - Process P0057 completed on Core 0 (Turnaround: 1.19s)
+2026-04-23 23:15:47,293 - SchedulerLogger - DEBUG - Process P0058 added to ready queue
+2026-04-23 23:15:47,305 - SchedulerLogger - ERROR - Scheduler error: Item I879 not found
+2026-04-23 23:15:47,306 - SchedulerLogger - INFO - Process P0058 dispatched to Core 0
+2026-04-23 23:15:47,530 - SchedulerLogger - INFO - Process P0058 completed on Core 0 (Turnaround: 0.24s)
+2026-04-23 23:15:47,892 - SchedulerLogger - DEBUG - Process P0059 added to ready queue
+2026-04-23 23:15:48,888 - SchedulerLogger - INFO - Process P0059 dispatched to Core 0
+2026-04-23 23:15:48,949 - SchedulerLogger - INFO - Process P0059 completed on Core 0 (Turnaround: 1.06s)
+2026-04-23 23:15:49,437 - SchedulerLogger - DEBUG - Process P0060 added to ready queue
+2026-04-23 23:15:50,430 - SchedulerLogger - INFO - Process P0060 dispatched to Core 0
+2026-04-23 23:15:50,654 - SchedulerLogger - DEBUG - Process P0061 added to ready queue
+2026-04-23 23:15:50,718 - SchedulerLogger - INFO - Process P0060 completed on Core 0 (Turnaround: 1.28s)
+2026-04-23 23:15:51,676 - SchedulerLogger - INFO - Process P0061 dispatched to Core 0
+2026-04-23 23:15:51,881 - SchedulerLogger - INFO - Process P0061 completed on Core 0 (Turnaround: 1.23s)
+2026-04-23 23:15:51,927 - SchedulerLogger - DEBUG - Process P0062 added to ready queue
+2026-04-23 23:15:52,777 - SchedulerLogger - INFO - Process P0020 dispatched to Core 0
+2026-04-23 23:15:52,992 - SchedulerLogger - DEBUG - Process P0063 added to ready queue
+2026-04-23 23:15:53,007 - SchedulerLogger - INFO - Process P0020 completed on Core 0 (Turnaround: 36.44s)
+2026-04-23 23:15:53,873 - SchedulerLogger - INFO - Process P0026 dispatched to Core 0
+2026-04-23 23:15:54,102 - SchedulerLogger - DEBUG - Process P0064 added to ready queue
+2026-04-23 23:15:54,332 - SchedulerLogger - INFO - Process P0026 completed on Core 0 (Turnaround: 36.33s)
+2026-04-23 23:15:55,058 - SchedulerLogger - INFO - Process P0064 dispatched to Core 0
+2026-04-23 23:15:55,189 - SchedulerLogger - INFO - Process P0064 completed on Core 0 (Turnaround: 1.09s)
+2026-04-23 23:15:55,262 - SchedulerLogger - DEBUG - Process P0065 added to ready queue
+2026-04-23 23:15:55,299 - SchedulerLogger - ERROR - Scheduler error: Item IA0B not found
+2026-04-23 23:15:55,300 - SchedulerLogger - INFO - Process P0065 dispatched to Core 0
+2026-04-23 23:15:55,595 - SchedulerLogger - INFO - Process P0065 completed on Core 0 (Turnaround: 0.33s)
+2026-04-23 23:15:56,059 - SchedulerLogger - DEBUG - Process P0066 added to ready queue
+2026-04-23 23:15:57,709 - SchedulerLogger - INFO - Process P0066 dispatched to Core 0
+2026-04-23 23:15:57,939 - SchedulerLogger - DEBUG - Process P0067 added to ready queue
+2026-04-23 23:15:58,063 - SchedulerLogger - INFO - Process P0066 completed on Core 0 (Turnaround: 2.00s)
+2026-04-23 23:15:58,951 - SchedulerLogger - INFO - Process P0067 dispatched to Core 0
+2026-04-23 23:15:59,028 - SchedulerLogger - INFO - Process P0067 completed on Core 0 (Turnaround: 1.09s)
+2026-04-23 23:15:59,320 - SchedulerLogger - DEBUG - Process P0068 added to ready queue
+2026-04-23 23:15:59,842 - SchedulerLogger - INFO - Process P0068 dispatched to Core 0
+2026-04-23 23:15:59,898 - SchedulerLogger - INFO - Process P0068 completed on Core 0 (Turnaround: 0.58s)
+2026-04-23 23:16:00,711 - SchedulerLogger - DEBUG - Process P0069 added to ready queue
+2026-04-23 23:16:01,665 - SchedulerLogger - INFO - Process P0062 dispatched to Core 0
+2026-04-23 23:16:01,925 - SchedulerLogger - DEBUG - Process P0070 added to ready queue
+2026-04-23 23:16:02,037 - SchedulerLogger - INFO - Process P0062 completed on Core 0 (Turnaround: 10.11s)
+2026-04-23 23:16:02,973 - SchedulerLogger - INFO - Process P0018 dispatched to Core 0
+2026-04-23 23:16:03,219 - SchedulerLogger - DEBUG - Process P0071 added to ready queue
+2026-04-23 23:16:03,407 - SchedulerLogger - INFO - Process P0018 completed on Core 0 (Turnaround: 46.91s)
+2026-04-23 23:16:03,442 - SchedulerLogger - ERROR - Scheduler error: Item IBA0 not found
+2026-04-23 23:16:03,443 - SchedulerLogger - INFO - Process P0071 dispatched to Core 0
+2026-04-23 23:16:03,599 - SchedulerLogger - INFO - Process P0071 completed on Core 0 (Turnaround: 0.38s)
+2026-04-23 23:16:04,100 - SchedulerLogger - DEBUG - Process P0072 added to ready queue
+2026-04-23 23:16:05,152 - SchedulerLogger - INFO - Process P0063 dispatched to Core 0
+2026-04-23 23:16:05,366 - SchedulerLogger - DEBUG - Process P0073 added to ready queue
+2026-04-23 23:16:05,490 - SchedulerLogger - INFO - Process P0063 completed on Core 0 (Turnaround: 12.50s)
+2026-04-23 23:16:06,289 - SchedulerLogger - INFO - Process P0073 dispatched to Core 0
+2026-04-23 23:16:06,541 - SchedulerLogger - DEBUG - Process P0074 added to ready queue
+2026-04-23 23:16:06,623 - SchedulerLogger - INFO - Process P0073 completed on Core 0 (Turnaround: 1.26s)
+2026-04-23 23:16:06,681 - SchedulerLogger - ERROR - Scheduler error: Item IC2E not found
+2026-04-23 23:16:06,682 - SchedulerLogger - INFO - Process P0074 dispatched to Core 0
+2026-04-23 23:16:06,965 - SchedulerLogger - INFO - Process P0074 completed on Core 0 (Turnaround: 0.42s)
+2026-04-23 23:16:07,593 - SchedulerLogger - DEBUG - Process P0075 added to ready queue
+2026-04-23 23:16:08,623 - SchedulerLogger - INFO - Process P0072 dispatched to Core 0
+2026-04-23 23:16:08,850 - SchedulerLogger - INFO - Process P0072 completed on Core 0 (Turnaround: 4.75s)
+2026-04-23 23:16:08,853 - SchedulerLogger - DEBUG - Process P0076 added to ready queue
+2026-04-23 23:16:09,725 - SchedulerLogger - INFO - Process P0076 dispatched to Core 0
+2026-04-23 23:16:09,856 - SchedulerLogger - INFO - Process P0076 completed on Core 0 (Turnaround: 1.00s)
+2026-04-23 23:16:09,937 - SchedulerLogger - DEBUG - Process P0077 added to ready queue
+2026-04-23 23:16:10,975 - SchedulerLogger - INFO - Process P0077 dispatched to Core 0
+2026-04-23 23:16:11,206 - SchedulerLogger - DEBUG - Process P0078 added to ready queue
+2026-04-23 23:16:11,348 - SchedulerLogger - INFO - Process P0077 completed on Core 0 (Turnaround: 1.41s)
+2026-04-23 23:16:11,354 - SchedulerLogger - ERROR - Scheduler error: Item ICFD not found
+2026-04-23 23:16:11,355 - SchedulerLogger - INFO - Process P0078 dispatched to Core 0
+2026-04-23 23:16:11,464 - SchedulerLogger - INFO - Process P0078 completed on Core 0 (Turnaround: 0.26s)
+2026-04-23 23:16:12,004 - SchedulerLogger - DEBUG - Process P0079 added to ready queue
+2026-04-23 23:16:12,953 - SchedulerLogger - INFO - Process P0079 dispatched to Core 0
+2026-04-23 23:16:13,160 - SchedulerLogger - DEBUG - Process P0080 added to ready queue
+2026-04-23 23:16:13,192 - SchedulerLogger - INFO - Process P0079 completed on Core 0 (Turnaround: 1.19s)
+2026-04-23 23:16:14,140 - SchedulerLogger - INFO - Process P0070 dispatched to Core 0
+2026-04-23 23:16:14,364 - SchedulerLogger - DEBUG - Process P0081 added to ready queue
+2026-04-23 23:16:14,373 - SchedulerLogger - INFO - Process P0070 completed on Core 0 (Turnaround: 12.45s)
+2026-04-23 23:16:15,290 - SchedulerLogger - INFO - Process P0081 dispatched to Core 0
+2026-04-23 23:16:15,448 - SchedulerLogger - INFO - Process P0081 completed on Core 0 (Turnaround: 1.08s)
+2026-04-23 23:16:15,526 - SchedulerLogger - DEBUG - Process P0082 added to ready queue
+2026-04-23 23:16:16,427 - SchedulerLogger - INFO - Process P0082 dispatched to Core 0
+2026-04-23 23:16:16,642 - SchedulerLogger - DEBUG - Process P0083 added to ready queue
+2026-04-23 23:16:16,771 - SchedulerLogger - INFO - Process P0082 completed on Core 0 (Turnaround: 1.25s)
+2026-04-23 23:16:17,707 - SchedulerLogger - INFO - Process P0083 dispatched to Core 0
+2026-04-23 23:16:17,928 - SchedulerLogger - DEBUG - Process P0084 added to ready queue
+2026-04-23 23:16:18,125 - SchedulerLogger - INFO - Process P0083 completed on Core 0 (Turnaround: 1.48s)
+2026-04-23 23:16:18,934 - SchedulerLogger - INFO - Process P0084 dispatched to Core 0
+2026-04-23 23:16:19,086 - SchedulerLogger - INFO - Process P0084 completed on Core 0 (Turnaround: 1.16s)
+2026-04-23 23:16:19,334 - SchedulerLogger - DEBUG - Process P0085 added to ready queue
+2026-04-23 23:16:19,792 - SchedulerLogger - INFO - Process P0085 dispatched to Core 0
+2026-04-23 23:16:19,877 - SchedulerLogger - INFO - Process P0085 completed on Core 0 (Turnaround: 0.54s)
+2026-04-23 23:16:20,226 - SchedulerLogger - DEBUG - Process P0086 added to ready queue
+2026-04-23 23:16:21,157 - SchedulerLogger - INFO - Process P0046 dispatched to Core 0
+2026-04-23 23:16:21,408 - SchedulerLogger - DEBUG - Process P0087 added to ready queue
+2026-04-23 23:16:21,409 - SchedulerLogger - INFO - Process P0046 completed on Core 0 (Turnaround: 47.60s)
+2026-04-23 23:16:21,456 - SchedulerLogger - ERROR - Scheduler error: Item IEE7 not found
+2026-04-23 23:16:21,470 - SchedulerLogger - INFO - Process P0087 dispatched to Core 0
+2026-04-23 23:16:21,872 - SchedulerLogger - INFO - Process P0087 completed on Core 0 (Turnaround: 0.46s)
+2026-04-23 23:16:22,578 - SchedulerLogger - DEBUG - Process P0088 added to ready queue
+2026-04-23 23:16:23,446 - SchedulerLogger - INFO - Process P0024 dispatched to Core 0
+2026-04-23 23:16:23,658 - SchedulerLogger - DEBUG - Process P0089 added to ready queue
+2026-04-23 23:16:23,902 - SchedulerLogger - INFO - Process P0024 completed on Core 0 (Turnaround: 67.20s)
+2026-04-23 23:16:24,427 - SchedulerLogger - INFO - Process P0037 dispatched to Core 0
+2026-04-23 23:16:24,643 - SchedulerLogger - DEBUG - Process P0090 added to ready queue
+2026-04-23 23:16:24,887 - SchedulerLogger - INFO - Process P0037 completed on Core 0 (Turnaround: 60.11s)
+2026-04-23 23:16:25,095 - SchedulerLogger - INFO - Process P0052 dispatched to Core 0
+2026-04-23 23:16:25,447 - SchedulerLogger - DEBUG - Process P0091 added to ready queue
+2026-04-23 23:16:25,461 - SchedulerLogger - INFO - Process P0052 completed on Core 0 (Turnaround: 45.51s)
+2026-04-23 23:16:26,330 - SchedulerLogger - INFO - Process P0069 dispatched to Core 0
+2026-04-23 23:16:26,583 - SchedulerLogger - DEBUG - Process P0092 added to ready queue
+2026-04-23 23:16:26,796 - SchedulerLogger - INFO - Process P0069 completed on Core 0 (Turnaround: 26.09s)
+2026-04-23 23:16:27,654 - SchedulerLogger - INFO - Process P0075 dispatched to Core 0
+2026-04-23 23:16:27,884 - SchedulerLogger - DEBUG - Process P0093 added to ready queue
+2026-04-23 23:16:27,952 - SchedulerLogger - INFO - Process P0075 completed on Core 0 (Turnaround: 20.36s)
+2026-04-23 23:16:27,982 - SchedulerLogger - ERROR - Scheduler error: Item I1047 not found
+2026-04-23 23:16:27,982 - SchedulerLogger - INFO - Process P0080 dispatched to Core 0
+2026-04-23 23:16:28,475 - SchedulerLogger - INFO - Process P0080 completed on Core 0 (Turnaround: 15.32s)
+2026-04-23 23:16:29,403 - SchedulerLogger - DEBUG - Process P0094 added to ready queue
+2026-04-23 23:16:30,667 - SchedulerLogger - INFO - Process P0086 dispatched to Core 0
+2026-04-23 23:16:30,937 - SchedulerLogger - DEBUG - Process P0095 added to ready queue
+2026-04-23 23:16:30,987 - SchedulerLogger - INFO - Process P0086 completed on Core 0 (Turnaround: 10.76s)
+2026-04-23 23:16:30,990 - SchedulerLogger - ERROR - Scheduler error: Item I10DB not found
+2026-04-23 23:16:30,991 - SchedulerLogger - INFO - Process P0088 dispatched to Core 0
+2026-04-23 23:16:31,048 - SchedulerLogger - INFO - Process P0088 completed on Core 0 (Turnaround: 8.47s)
+2026-04-23 23:16:32,207 - SchedulerLogger - DEBUG - Process P0096 added to ready queue
+2026-04-23 23:16:32,871 - SchedulerLogger - INFO - Process P0089 dispatched to Core 0
+2026-04-23 23:16:33,083 - SchedulerLogger - DEBUG - Process P0097 added to ready queue
+2026-04-23 23:16:33,089 - SchedulerLogger - INFO - Process P0089 completed on Core 0 (Turnaround: 9.43s)
+2026-04-23 23:16:33,757 - SchedulerLogger - INFO - Process P0090 dispatched to Core 0
+2026-04-23 23:16:33,854 - SchedulerLogger - INFO - Process P0090 completed on Core 0 (Turnaround: 9.21s)
+2026-04-23 23:16:34,082 - SchedulerLogger - DEBUG - Process P0098 added to ready queue
+2026-04-23 23:16:34,492 - SchedulerLogger - INFO - Process P0091 dispatched to Core 0
+2026-04-23 23:16:34,611 - SchedulerLogger - INFO - Process P0091 completed on Core 0 (Turnaround: 9.16s)
+2026-04-23 23:16:34,711 - SchedulerLogger - DEBUG - Process P0099 added to ready queue
+2026-04-23 23:16:34,738 - SchedulerLogger - ERROR - Scheduler error: Item I11BA not found
+2026-04-23 23:16:34,739 - SchedulerLogger - INFO - Process P0092 dispatched to Core 0
+2026-04-23 23:16:34,912 - SchedulerLogger - INFO - Process P0092 completed on Core 0 (Turnaround: 8.33s)
+2026-04-23 23:16:35,598 - SchedulerLogger - DEBUG - Process P0100 added to ready queue
+2026-04-23 23:16:36,667 - SchedulerLogger - INFO - Process P0093 dispatched to Core 0
+2026-04-23 23:16:36,918 - SchedulerLogger - DEBUG - Process P0101 added to ready queue
+2026-04-23 23:16:36,979 - SchedulerLogger - INFO - Process P0093 completed on Core 0 (Turnaround: 9.09s)
+2026-04-23 23:16:37,426 - SchedulerLogger - INFO - Process P0094 dispatched to Core 0
+2026-04-23 23:16:37,568 - SchedulerLogger - INFO - Process P0094 completed on Core 0 (Turnaround: 8.16s)
+2026-04-23 23:16:39,523 - SchedulerLogger - INFO - Scheduler stopped
+2026-04-23 23:16:57,252 - SchedulerLogger - INFO - Scheduler stopped
+2026-04-23 23:16:58,812 - SchedulerLogger - INFO - Scheduler stopped
+2026-04-23 23:16:58,813 - SchedulerLogger - INFO - Scheduler initialized with 4 cores using ml_balanced policy
+2026-04-23 23:16:58,814 - SchedulerLogger - DEBUG - Process P0001 added to ready queue
+2026-04-23 23:16:58,814 - SchedulerLogger - INFO - Scheduler started
+2026-04-23 23:16:59,273 - SchedulerLogger - INFO - Process P0001 dispatched to Core 0
+2026-04-23 23:16:59,484 - SchedulerLogger - DEBUG - Process P0002 added to ready queue
+2026-04-23 23:16:59,490 - SchedulerLogger - INFO - Process P0002 dispatched to Core 1
+2026-04-23 23:16:59,544 - SchedulerLogger - INFO - Process P0001 completed on Core 0 (Turnaround: 0.73s)
+2026-04-23 23:16:59,731 - SchedulerLogger - DEBUG - Process P0003 added to ready queue
+2026-04-23 23:16:59,759 - SchedulerLogger - INFO - Process P0003 dispatched to Core 0
+2026-04-23 23:16:59,917 - SchedulerLogger - INFO - Process P0002 completed on Core 1 (Turnaround: 0.43s)
+2026-04-23 23:17:00,041 - SchedulerLogger - DEBUG - Process P0004 added to ready queue
+2026-04-23 23:17:00,087 - SchedulerLogger - INFO - Process P0004 dispatched to Core 1
+2026-04-23 23:17:00,179 - SchedulerLogger - INFO - Process P0003 completed on Core 0 (Turnaround: 0.45s)
+2026-04-23 23:17:00,328 - SchedulerLogger - DEBUG - Process P0005 added to ready queue
+2026-04-23 23:17:00,380 - SchedulerLogger - INFO - Process P0004 completed on Core 1 (Turnaround: 0.34s)
+2026-04-23 23:17:00,390 - SchedulerLogger - INFO - Process P0005 dispatched to Core 0
+2026-04-23 23:17:00,742 - SchedulerLogger - DEBUG - Process P0006 added to ready queue
+2026-04-23 23:17:00,813 - SchedulerLogger - INFO - Process P0006 dispatched to Core 1
+2026-04-23 23:17:00,815 - SchedulerLogger - INFO - Load imbalance detected: 1.04. Rebalancing...
+2026-04-23 23:17:00,815 - SchedulerLogger - INFO - Migrated process P0005 from Core 0 to Core 2
+2026-04-23 23:17:00,866 - SchedulerLogger - INFO - Process P0005 completed on Core 0 (Turnaround: 0.54s)
+2026-04-23 23:17:01,075 - SchedulerLogger - DEBUG - Process P0007 added to ready queue
+2026-04-23 23:17:01,139 - SchedulerLogger - INFO - Process P0007 dispatched to Core 0
+2026-04-23 23:17:01,195 - SchedulerLogger - INFO - Process P0007 completed on Core 0 (Turnaround: 0.12s)
+2026-04-23 23:17:01,214 - SchedulerLogger - INFO - Process P0006 completed on Core 1 (Turnaround: 0.47s)
+2026-04-23 23:17:01,429 - SchedulerLogger - DEBUG - Process P0008 added to ready queue
+2026-04-23 23:17:01,514 - SchedulerLogger - INFO - Process P0008 dispatched to Core 0
+2026-04-23 23:17:01,733 - SchedulerLogger - DEBUG - Process P0009 added to ready queue
+2026-04-23 23:17:01,811 - SchedulerLogger - INFO - Process P0009 dispatched to Core 1
+2026-04-23 23:17:01,996 - SchedulerLogger - INFO - Process P0008 completed on Core 0 (Turnaround: 0.57s)
+2026-04-23 23:17:02,046 - SchedulerLogger - DEBUG - Process P0010 added to ready queue
+2026-04-23 23:17:02,159 - SchedulerLogger - INFO - Process P0010 dispatched to Core 0
+2026-04-23 23:17:02,189 - SchedulerLogger - INFO - Process P0009 completed on Core 1 (Turnaround: 0.46s)
+2026-04-23 23:17:02,355 - SchedulerLogger - INFO - Process P0010 completed on Core 0 (Turnaround: 0.31s)
+2026-04-23 23:17:02,392 - SchedulerLogger - DEBUG - Process P0011 added to ready queue
+2026-04-23 23:17:02,459 - SchedulerLogger - INFO - Process P0011 dispatched to Core 0
+2026-04-23 23:17:02,629 - SchedulerLogger - INFO - Process P0011 completed on Core 0 (Turnaround: 0.24s)
+2026-04-23 23:17:02,679 - SchedulerLogger - DEBUG - Process P0012 added to ready queue
+2026-04-23 23:17:02,694 - SchedulerLogger - ERROR - Scheduler error: Item I137D not found
+2026-04-23 23:17:02,694 - SchedulerLogger - DEBUG - Process P0013 added to ready queue
+2026-04-23 23:17:02,889 - SchedulerLogger - INFO - Process P0013 dispatched to Core 0
+2026-04-23 23:17:02,890 - SchedulerLogger - INFO - Process P0012 dispatched to Core 1
+2026-04-23 23:17:02,890 - SchedulerLogger - INFO - Load imbalance detected: 0.67. Rebalancing...
+2026-04-23 23:17:02,891 - SchedulerLogger - INFO - Migrated process P0013 from Core 0 to Core 3
+2026-04-23 23:17:03,094 - SchedulerLogger - INFO - Process P0012 completed on Core 1 (Turnaround: 0.42s)
+2026-04-23 23:17:03,221 - SchedulerLogger - INFO - Process P0013 completed on Core 0 (Turnaround: 0.53s)
+2026-04-23 23:17:03,316 - SchedulerLogger - DEBUG - Process P0014 added to ready queue
+2026-04-23 23:17:03,454 - SchedulerLogger - INFO - Process P0014 dispatched to Core 0
+2026-04-23 23:17:03,661 - SchedulerLogger - DEBUG - Process P0015 added to ready queue
+2026-04-23 23:17:03,831 - SchedulerLogger - INFO - Process P0015 dispatched to Core 1
+2026-04-23 23:17:03,898 - SchedulerLogger - INFO - Process P0014 completed on Core 0 (Turnaround: 0.58s)
+2026-04-23 23:17:03,980 - SchedulerLogger - INFO - Process P0015 completed on Core 1 (Turnaround: 0.32s)
+2026-04-23 23:17:04,067 - SchedulerLogger - DEBUG - Process P0016 added to ready queue
+2026-04-23 23:17:04,170 - SchedulerLogger - INFO - Process P0016 dispatched to Core 0
+2026-04-23 23:17:04,441 - SchedulerLogger - DEBUG - Process P0017 added to ready queue
+2026-04-23 23:17:04,525 - SchedulerLogger - INFO - Process P0016 completed on Core 0 (Turnaround: 0.46s)
+2026-04-23 23:17:04,531 - SchedulerLogger - INFO - Process P0017 dispatched to Core 0
+2026-04-23 23:17:04,802 - SchedulerLogger - DEBUG - Process P0018 added to ready queue
+2026-04-23 23:17:04,981 - SchedulerLogger - INFO - Process P0017 completed on Core 0 (Turnaround: 0.54s)
+2026-04-23 23:17:05,043 - SchedulerLogger - INFO - Process P0018 dispatched to Core 0
+2026-04-23 23:17:05,044 - SchedulerLogger - INFO - Load imbalance detected: 0.41. Rebalancing...
+2026-04-23 23:17:05,146 - SchedulerLogger - INFO - Process P0018 completed on Core 0 (Turnaround: 0.34s)
+2026-04-23 23:17:07,078 - SchedulerLogger - INFO - Scheduler stopped
+2026-04-23 23:17:07,080 - SchedulerLogger - INFO - Scheduler initialized with 4 cores using ml_balanced policy
+2026-04-23 23:17:07,081 - SchedulerLogger - DEBUG - Process P0001 added to ready queue
+2026-04-23 23:17:07,082 - SchedulerLogger - INFO - Scheduler started
+2026-04-23 23:17:07,084 - SchedulerLogger - ERROR - Scheduler error: Item I143C not found
+2026-04-23 23:17:07,085 - SchedulerLogger - DEBUG - Process P0002 added to ready queue
+2026-04-23 23:17:07,086 - SchedulerLogger - ERROR - Scheduler error: Item I143E not found
+2026-04-23 23:17:07,086 - SchedulerLogger - DEBUG - Process P0003 added to ready queue
+2026-04-23 23:17:07,087 - SchedulerLogger - ERROR - Scheduler error: Item I1441 not found
+2026-04-23 23:17:07,088 - SchedulerLogger - DEBUG - Process P0004 added to ready queue
+2026-04-23 23:17:07,165 - SchedulerLogger - INFO - Process P0001 dispatched to Core 0
+2026-04-23 23:17:07,166 - SchedulerLogger - INFO - Process P0003 dispatched to Core 1
+2026-04-23 23:17:07,168 - SchedulerLogger - INFO - Process P0002 dispatched to Core 2
+2026-04-23 23:17:07,168 - SchedulerLogger - INFO - Process P0004 dispatched to Core 3
+2026-04-23 23:17:07,219 - SchedulerLogger - INFO - Process P0001 completed on Core 0 (Turnaround: 0.14s)
+2026-04-23 23:17:07,219 - SchedulerLogger - INFO - Process P0003 completed on Core 1 (Turnaround: 0.13s)
+2026-04-23 23:17:07,266 - SchedulerLogger - INFO - Process P0002 completed on Core 2 (Turnaround: 0.18s)
+2026-04-23 23:17:07,363 - SchedulerLogger - INFO - Process P0004 completed on Core 3 (Turnaround: 0.28s)
+2026-04-23 23:17:09,243 - SchedulerLogger - INFO - Scheduler stopped
+2026-04-23 23:17:09,246 - SchedulerLogger - INFO - Scheduler initialized with 4 cores using ml_balanced policy
+2026-04-23 23:17:09,248 - SchedulerLogger - DEBUG - Process P0001 added to ready queue
+2026-04-23 23:17:09,248 - SchedulerLogger - INFO - Scheduler started
+2026-04-23 23:17:09,251 - SchedulerLogger - ERROR - Scheduler error: Item I145F not found
+2026-04-23 23:17:09,251 - SchedulerLogger - DEBUG - Process P0002 added to ready queue
+2026-04-23 23:17:09,253 - SchedulerLogger - ERROR - Scheduler error: Item I1461 not found
+2026-04-23 23:17:09,266 - SchedulerLogger - DEBUG - Process P0003 added to ready queue
+2026-04-23 23:17:09,272 - SchedulerLogger - INFO - Process P0002 dispatched to Core 0
+2026-04-23 23:17:09,273 - SchedulerLogger - INFO - Process P0001 dispatched to Core 1
+2026-04-23 23:17:09,278 - SchedulerLogger - INFO - Process P0003 dispatched to Core 2
+2026-04-23 23:17:09,379 - SchedulerLogger - INFO - Process P0003 completed on Core 2 (Turnaround: 0.11s)
+2026-04-23 23:17:09,403 - SchedulerLogger - INFO - Process P0001 completed on Core 1 (Turnaround: 0.16s)
+2026-04-23 23:17:09,416 - SchedulerLogger - INFO - Process P0002 completed on Core 0 (Turnaround: 0.16s)
+2026-04-23 23:17:09,694 - SchedulerLogger - DEBUG - Process P0004 added to ready queue
+2026-04-23 23:17:09,738 - SchedulerLogger - INFO - Process P0004 dispatched to Core 0
+2026-04-23 23:17:09,981 - SchedulerLogger - DEBUG - Process P0005 added to ready queue
+2026-04-23 23:17:09,995 - SchedulerLogger - INFO - Process P0005 dispatched to Core 1
+2026-04-23 23:17:10,203 - SchedulerLogger - INFO - Process P0004 completed on Core 0 (Turnaround: 0.51s)
+2026-04-23 23:17:10,251 - SchedulerLogger - DEBUG - Process P0006 added to ready queue
+2026-04-23 23:17:10,260 - SchedulerLogger - INFO - Process P0006 dispatched to Core 0
+2026-04-23 23:17:10,299 - SchedulerLogger - INFO - Process P0005 completed on Core 1 (Turnaround: 0.32s)
+2026-04-23 23:17:10,520 - SchedulerLogger - DEBUG - Process P0007 added to ready queue
+2026-04-23 23:17:10,596 - SchedulerLogger - INFO - Process P0007 dispatched to Core 1
+2026-04-23 23:17:10,708 - SchedulerLogger - INFO - Process P0006 completed on Core 0 (Turnaround: 0.46s)
+2026-04-23 23:17:10,849 - SchedulerLogger - DEBUG - Process P0008 added to ready queue
+2026-04-23 23:17:10,922 - SchedulerLogger - INFO - Process P0008 dispatched to Core 0
+2026-04-23 23:17:10,994 - SchedulerLogger - INFO - Process P0007 completed on Core 1 (Turnaround: 0.47s)
+2026-04-23 23:17:11,039 - SchedulerLogger - INFO - Process P0008 completed on Core 0 (Turnaround: 0.19s)
+2026-04-23 23:17:11,139 - SchedulerLogger - DEBUG - Process P0009 added to ready queue
+2026-04-23 23:17:11,211 - SchedulerLogger - INFO - Process P0009 dispatched to Core 0
+2026-04-23 23:17:11,419 - SchedulerLogger - INFO - Process P0009 completed on Core 0 (Turnaround: 0.28s)
+2026-04-23 23:17:11,423 - SchedulerLogger - DEBUG - Process P0010 added to ready queue
+2026-04-23 23:17:11,450 - SchedulerLogger - ERROR - Scheduler error: Item I14B7 not found
+2026-04-23 23:17:11,455 - SchedulerLogger - DEBUG - Process P0011 added to ready queue
+2026-04-23 23:17:11,472 - SchedulerLogger - ERROR - Scheduler error: Item I14B9 not found
+2026-04-23 23:17:11,478 - SchedulerLogger - DEBUG - Process P0012 added to ready queue
+2026-04-23 23:17:11,619 - SchedulerLogger - INFO - Process P0010 dispatched to Core 0
+2026-04-23 23:17:11,620 - SchedulerLogger - INFO - Process P0011 dispatched to Core 1
+2026-04-23 23:17:11,620 - SchedulerLogger - INFO - Process P0012 dispatched to Core 2
+2026-04-23 23:17:11,621 - SchedulerLogger - INFO - Load imbalance detected: 0.79. Rebalancing...
+2026-04-23 23:17:11,621 - SchedulerLogger - INFO - Migrated process P0010 from Core 0 to Core 3
+2026-04-23 23:17:11,715 - SchedulerLogger - INFO - Process P0010 completed on Core 0 (Turnaround: 0.29s)
+2026-04-23 23:17:11,854 - SchedulerLogger - DEBUG - Process P0013 added to ready queue
+2026-04-23 23:17:11,990 - SchedulerLogger - INFO - Process P0011 completed on Core 1 (Turnaround: 0.53s)
+2026-04-23 23:17:12,006 - SchedulerLogger - INFO - Process P0013 dispatched to Core 0
+2026-04-23 23:17:12,104 - SchedulerLogger - INFO - Process P0012 completed on Core 2 (Turnaround: 0.63s)
+2026-04-23 23:17:12,297 - SchedulerLogger - DEBUG - Process P0014 added to ready queue
+2026-04-23 23:17:12,298 - SchedulerLogger - INFO - Process P0013 completed on Core 0 (Turnaround: 0.44s)
+2026-04-23 23:17:12,483 - SchedulerLogger - INFO - Process P0014 dispatched to Core 0
+2026-04-23 23:17:12,608 - SchedulerLogger - INFO - Process P0014 completed on Core 0 (Turnaround: 0.31s)
+2026-04-23 23:17:12,910 - SchedulerLogger - DEBUG - Process P0015 added to ready queue
+2026-04-23 23:17:13,125 - SchedulerLogger - INFO - Process P0015 dispatched to Core 0
+2026-04-23 23:17:13,363 - SchedulerLogger - DEBUG - Process P0016 added to ready queue
+2026-04-23 23:17:13,535 - SchedulerLogger - INFO - Process P0016 dispatched to Core 1
+2026-04-23 23:17:13,565 - SchedulerLogger - INFO - Process P0015 completed on Core 0 (Turnaround: 0.65s)
+2026-04-23 23:17:13,864 - SchedulerLogger - DEBUG - Process P0017 added to ready queue
+2026-04-23 23:17:13,877 - SchedulerLogger - INFO - Process P0016 completed on Core 1 (Turnaround: 0.51s)
+2026-04-23 23:17:13,888 - SchedulerLogger - ERROR - Scheduler error: Item I154A not found
+2026-04-23 23:17:13,889 - SchedulerLogger - DEBUG - Process P0018 added to ready queue
+2026-04-23 23:17:13,909 - SchedulerLogger - ERROR - Scheduler error: Item I154C not found
+2026-04-23 23:17:13,909 - SchedulerLogger - DEBUG - Process P0019 added to ready queue
+2026-04-23 23:17:13,920 - SchedulerLogger - ERROR - Scheduler error: Item I154E not found
+2026-04-23 23:17:13,921 - SchedulerLogger - DEBUG - Process P0020 added to ready queue
+2026-04-23 23:17:14,055 - SchedulerLogger - INFO - Process P0018 dispatched to Core 0
+2026-04-23 23:17:14,056 - SchedulerLogger - INFO - Process P0020 dispatched to Core 1
+2026-04-23 23:17:14,057 - SchedulerLogger - INFO - Process P0017 dispatched to Core 2
+2026-04-23 23:17:14,057 - SchedulerLogger - INFO - Load imbalance detected: 0.47. Rebalancing...
+2026-04-23 23:17:14,232 - SchedulerLogger - INFO - Process P0018 completed on Core 0 (Turnaround: 0.34s)
+2026-04-23 23:17:14,252 - SchedulerLogger - DEBUG - Process P0021 added to ready queue
+2026-04-23 23:17:14,257 - SchedulerLogger - ERROR - Scheduler error: Item I155A not found
+2026-04-23 23:17:14,260 - SchedulerLogger - DEBUG - Process P0022 added to ready queue
+2026-04-23 23:17:14,270 - SchedulerLogger - ERROR - Scheduler error: Item I155C not found
+2026-04-23 23:17:14,270 - SchedulerLogger - DEBUG - Process P0023 added to ready queue
+2026-04-23 23:17:14,358 - SchedulerLogger - INFO - Process P0020 completed on Core 1 (Turnaround: 0.44s)
+2026-04-23 23:17:14,363 - SchedulerLogger - ERROR - Scheduler error: Item I1568 not found
+2026-04-23 23:17:14,363 - SchedulerLogger - DEBUG - Process P0024 added to ready queue
+2026-04-23 23:17:14,367 - SchedulerLogger - ERROR - Scheduler error: Item I156C not found
+2026-04-23 23:17:14,367 - SchedulerLogger - DEBUG - Process P0025 added to ready queue
+2026-04-23 23:17:14,411 - SchedulerLogger - INFO - Process P0017 completed on Core 2 (Turnaround: 0.55s)
+2026-04-23 23:17:14,491 - SchedulerLogger - INFO - Process P0022 dispatched to Core 0
+2026-04-23 23:17:14,492 - SchedulerLogger - INFO - Process P0025 dispatched to Core 1
+2026-04-23 23:17:14,493 - SchedulerLogger - INFO - Process P0024 dispatched to Core 2
+2026-04-23 23:17:14,549 - SchedulerLogger - INFO - Process P0022 completed on Core 0 (Turnaround: 0.29s)
+2026-04-23 23:17:14,644 - SchedulerLogger - INFO - Process P0025 completed on Core 1 (Turnaround: 0.28s)
+2026-04-23 23:17:14,699 - SchedulerLogger - INFO - Process P0024 completed on Core 2 (Turnaround: 0.34s)
+2026-04-23 23:17:15,230 - SchedulerLogger - DEBUG - Process P0026 added to ready queue
+2026-04-23 23:17:15,707 - SchedulerLogger - INFO - Process P0023 dispatched to Core 0
+2026-04-23 23:17:15,708 - SchedulerLogger - INFO - Process P0026 dispatched to Core 1
+2026-04-23 23:17:15,709 - SchedulerLogger - INFO - Process P0021 dispatched to Core 2
+2026-04-23 23:17:15,920 - SchedulerLogger - INFO - Process P0023 completed on Core 0 (Turnaround: 1.65s)
+2026-04-23 23:17:15,932 - SchedulerLogger - DEBUG - Process P0027 added to ready queue
+2026-04-23 23:17:15,942 - SchedulerLogger - INFO - Process P0026 completed on Core 1 (Turnaround: 0.71s)
+2026-04-23 23:17:15,989 - SchedulerLogger - ERROR - Scheduler error: Item I15D5 not found
+2026-04-23 23:17:15,990 - SchedulerLogger - DEBUG - Process P0028 added to ready queue
+2026-04-23 23:17:15,990 - SchedulerLogger - ERROR - Scheduler error: Item I15D9 not found
+2026-04-23 23:17:15,992 - SchedulerLogger - DEBUG - Process P0029 added to ready queue
+2026-04-23 23:17:16,013 - SchedulerLogger - ERROR - Scheduler error: Item I15DD not found
+2026-04-23 23:17:16,017 - SchedulerLogger - DEBUG - Process P0030 added to ready queue
+2026-04-23 23:17:16,018 - SchedulerLogger - ERROR - Scheduler error: Item I15EA not found
+2026-04-23 23:17:16,019 - SchedulerLogger - DEBUG - Process P0031 added to ready queue
+2026-04-23 23:17:16,198 - SchedulerLogger - INFO - Process P0021 completed on Core 2 (Turnaround: 1.95s)
+2026-04-23 23:17:16,249 - SchedulerLogger - INFO - Process P0031 dispatched to Core 0
+2026-04-23 23:17:16,250 - SchedulerLogger - INFO - Process P0030 dispatched to Core 1
+2026-04-23 23:17:16,250 - SchedulerLogger - INFO - Process P0028 dispatched to Core 2
+2026-04-23 23:17:16,251 - SchedulerLogger - INFO - Load imbalance detected: 0.33. Rebalancing...
+2026-04-23 23:17:16,521 - SchedulerLogger - INFO - Process P0028 completed on Core 2 (Turnaround: 0.53s)
+2026-04-23 23:17:16,529 - SchedulerLogger - INFO - Process P0031 completed on Core 0 (Turnaround: 0.51s)
+2026-04-23 23:17:16,539 - SchedulerLogger - INFO - Process P0030 completed on Core 1 (Turnaround: 0.52s)
+2026-04-23 23:17:16,870 - SchedulerLogger - DEBUG - Process P0032 added to ready queue
+2026-04-23 23:17:17,482 - SchedulerLogger - INFO - Process P0032 dispatched to Core 0
+2026-04-23 23:17:17,483 - SchedulerLogger - INFO - Process P0019 dispatched to Core 1
+2026-04-23 23:17:17,485 - SchedulerLogger - INFO - Process P0029 dispatched to Core 2
+2026-04-23 23:17:17,709 - SchedulerLogger - INFO - Process P0029 completed on Core 2 (Turnaround: 1.72s)
+2026-04-23 23:17:17,726 - SchedulerLogger - INFO - Process P0032 completed on Core 0 (Turnaround: 0.86s)
+2026-04-23 23:17:17,747 - SchedulerLogger - DEBUG - Process P0033 added to ready queue
+2026-04-23 23:17:17,755 - SchedulerLogger - ERROR - Scheduler error: Item I166D not found
+2026-04-23 23:17:17,755 - SchedulerLogger - DEBUG - Process P0034 added to ready queue
+2026-04-23 23:17:17,756 - SchedulerLogger - ERROR - Scheduler error: Item I1670 not found
+2026-04-23 23:17:17,756 - SchedulerLogger - DEBUG - Process P0035 added to ready queue
+2026-04-23 23:17:17,756 - SchedulerLogger - ERROR - Scheduler error: Item I1675 not found
+2026-04-23 23:17:17,756 - SchedulerLogger - DEBUG - Process P0036 added to ready queue
+2026-04-23 23:17:17,770 - SchedulerLogger - ERROR - Scheduler error: Item I1678 not found
+2026-04-23 23:17:17,770 - SchedulerLogger - DEBUG - Process P0037 added to ready queue
+2026-04-23 23:17:17,870 - SchedulerLogger - INFO - Process P0019 completed on Core 1 (Turnaround: 3.96s)
+2026-04-23 23:17:18,231 - SchedulerLogger - INFO - Process P0034 dispatched to Core 0
+2026-04-23 23:17:18,232 - SchedulerLogger - INFO - Process P0036 dispatched to Core 1
+2026-04-23 23:17:18,233 - SchedulerLogger - INFO - Process P0033 dispatched to Core 2
+2026-04-23 23:17:18,307 - SchedulerLogger - INFO - Process P0033 completed on Core 2 (Turnaround: 0.56s)
+2026-04-23 23:17:18,335 - SchedulerLogger - INFO - Process P0034 completed on Core 0 (Turnaround: 0.58s)
+2026-04-23 23:17:18,475 - SchedulerLogger - INFO - Process P0036 completed on Core 1 (Turnaround: 0.72s)
+2026-04-23 23:17:18,736 - SchedulerLogger - DEBUG - Process P0038 added to ready queue
+2026-04-23 23:17:19,416 - SchedulerLogger - INFO - Process P0037 dispatched to Core 0
+2026-04-23 23:17:19,417 - SchedulerLogger - INFO - Process P0038 dispatched to Core 1
+2026-04-23 23:17:19,418 - SchedulerLogger - INFO - Process P0035 dispatched to Core 2
+2026-04-23 23:17:19,558 - SchedulerLogger - INFO - Process P0037 completed on Core 0 (Turnaround: 1.79s)
+2026-04-23 23:17:19,653 - SchedulerLogger - INFO - Process P0038 completed on Core 1 (Turnaround: 0.92s)
+2026-04-23 23:17:19,654 - SchedulerLogger - DEBUG - Process P0039 added to ready queue
+2026-04-23 23:17:19,662 - SchedulerLogger - ERROR - Scheduler error: Item I16F5 not found
+2026-04-23 23:17:19,662 - SchedulerLogger - DEBUG - Process P0040 added to ready queue
+2026-04-23 23:17:19,672 - SchedulerLogger - INFO - Process P0035 completed on Core 2 (Turnaround: 1.92s)
+2026-04-23 23:17:19,679 - SchedulerLogger - ERROR - Scheduler error: Item I16F7 not found
+2026-04-23 23:17:19,694 - SchedulerLogger - DEBUG - Process P0041 added to ready queue
+2026-04-23 23:17:19,699 - SchedulerLogger - ERROR - Scheduler error: Item I16F9 not found
+2026-04-23 23:17:19,699 - SchedulerLogger - DEBUG - Process P0042 added to ready queue
+2026-04-23 23:17:19,750 - SchedulerLogger - ERROR - Scheduler error: Item I16FD not found
+2026-04-23 23:17:19,757 - SchedulerLogger - DEBUG - Process P0043 added to ready queue
+2026-04-23 23:17:20,262 - SchedulerLogger - INFO - Process P0043 dispatched to Core 0
+2026-04-23 23:17:20,263 - SchedulerLogger - INFO - Process P0039 dispatched to Core 1
+2026-04-23 23:17:20,264 - SchedulerLogger - INFO - Process P0040 dispatched to Core 2
+2026-04-23 23:17:20,336 - SchedulerLogger - INFO - Process P0043 completed on Core 0 (Turnaround: 0.58s)
+2026-04-23 23:17:20,430 - SchedulerLogger - INFO - Process P0039 completed on Core 1 (Turnaround: 0.78s)
+2026-04-23 23:17:20,746 - SchedulerLogger - INFO - Process P0040 completed on Core 2 (Turnaround: 1.08s)
+2026-04-23 23:17:20,826 - SchedulerLogger - DEBUG - Process P0044 added to ready queue
+2026-04-23 23:17:21,391 - SchedulerLogger - INFO - Process P0041 dispatched to Core 0
+2026-04-23 23:17:21,392 - SchedulerLogger - INFO - Process P0042 dispatched to Core 1
+2026-04-23 23:17:21,393 - SchedulerLogger - INFO - Process P0044 dispatched to Core 2
+2026-04-23 23:17:21,562 - SchedulerLogger - INFO - Process P0044 completed on Core 2 (Turnaround: 0.74s)
+2026-04-23 23:17:21,611 - SchedulerLogger - DEBUG - Process P0045 added to ready queue
+2026-04-23 23:17:21,637 - SchedulerLogger - INFO - Process P0042 completed on Core 1 (Turnaround: 1.94s)
+2026-04-23 23:17:21,863 - SchedulerLogger - INFO - Process P0041 completed on Core 0 (Turnaround: 2.17s)
+2026-04-23 23:17:22,031 - SchedulerLogger - INFO - Process P0045 dispatched to Core 0
+2026-04-23 23:17:22,033 - SchedulerLogger - INFO - Process P0027 dispatched to Core 1
+2026-04-23 23:17:22,322 - SchedulerLogger - INFO - Process P0027 completed on Core 1 (Turnaround: 6.39s)
+2026-04-23 23:17:22,472 - SchedulerLogger - INFO - Process P0045 completed on Core 0 (Turnaround: 0.86s)
+2026-04-23 23:17:23,023 - SchedulerLogger - DEBUG - Process P0046 added to ready queue
+2026-04-23 23:17:23,876 - SchedulerLogger - INFO - Process P0046 dispatched to Core 0
+2026-04-23 23:17:23,936 - SchedulerLogger - INFO - Process P0046 completed on Core 0 (Turnaround: 0.91s)
+2026-04-23 23:17:24,315 - SchedulerLogger - DEBUG - Process P0047 added to ready queue
+2026-04-23 23:17:24,970 - SchedulerLogger - INFO - Process P0047 dispatched to Core 0
+2026-04-23 23:17:25,216 - SchedulerLogger - DEBUG - Process P0048 added to ready queue
+2026-04-23 23:17:25,394 - SchedulerLogger - INFO - Process P0047 completed on Core 0 (Turnaround: 1.08s)
+2026-04-23 23:17:25,916 - SchedulerLogger - INFO - Process P0048 dispatched to Core 0
+2026-04-23 23:17:26,124 - SchedulerLogger - DEBUG - Process P0049 added to ready queue
+2026-04-23 23:17:26,354 - SchedulerLogger - INFO - Process P0048 completed on Core 0 (Turnaround: 1.14s)
+2026-04-23 23:17:26,888 - SchedulerLogger - INFO - Process P0049 dispatched to Core 0
+2026-04-23 23:17:27,115 - SchedulerLogger - DEBUG - Process P0050 added to ready queue
+2026-04-23 23:17:27,277 - SchedulerLogger - INFO - Process P0049 completed on Core 0 (Turnaround: 1.15s)
+2026-04-23 23:17:27,998 - SchedulerLogger - INFO - Process P0050 dispatched to Core 0
+2026-04-23 23:17:28,226 - SchedulerLogger - DEBUG - Process P0051 added to ready queue
+2026-04-23 23:17:28,423 - SchedulerLogger - INFO - Process P0050 completed on Core 0 (Turnaround: 1.31s)
+2026-04-23 23:17:29,049 - SchedulerLogger - INFO - Process P0051 dispatched to Core 0
+2026-04-23 23:17:29,293 - SchedulerLogger - DEBUG - Process P0052 added to ready queue
+2026-04-23 23:17:29,520 - SchedulerLogger - INFO - Process P0051 completed on Core 0 (Turnaround: 1.29s)
+2026-04-23 23:17:29,556 - SchedulerLogger - ERROR - Scheduler error: Item I1964 not found
+2026-04-23 23:17:29,557 - SchedulerLogger - DEBUG - Process P0053 added to ready queue
+2026-04-23 23:17:30,184 - SchedulerLogger - INFO - Process P0053 dispatched to Core 0
+2026-04-23 23:17:30,186 - SchedulerLogger - INFO - Process P0052 dispatched to Core 1
+2026-04-23 23:17:30,186 - SchedulerLogger - INFO - Load imbalance detected: 0.31. Rebalancing...
+2026-04-23 23:17:30,187 - SchedulerLogger - INFO - Migrated process P0053 from Core 0 to Core 2
+2026-04-23 23:17:30,408 - SchedulerLogger - DEBUG - Process P0054 added to ready queue
+2026-04-23 23:17:30,619 - SchedulerLogger - INFO - Process P0053 completed on Core 0 (Turnaround: 1.06s)
+2026-04-23 23:17:30,636 - SchedulerLogger - ERROR - Scheduler error: Item I19A9 not found
+2026-04-23 23:17:30,641 - SchedulerLogger - DEBUG - Process P0055 added to ready queue
+2026-04-23 23:17:30,673 - SchedulerLogger - INFO - Process P0052 completed on Core 1 (Turnaround: 1.38s)
+2026-04-23 23:17:31,160 - SchedulerLogger - INFO - Process P0055 dispatched to Core 0
+2026-04-23 23:17:31,161 - SchedulerLogger - INFO - Process P0054 dispatched to Core 1
+2026-04-23 23:17:31,216 - SchedulerLogger - INFO - Process P0055 completed on Core 0 (Turnaround: 0.58s)
+2026-04-23 23:17:31,374 - SchedulerLogger - INFO - Process P0054 completed on Core 1 (Turnaround: 0.97s)
+2026-04-23 23:17:31,924 - SchedulerLogger - DEBUG - Process P0056 added to ready queue
+2026-04-23 23:17:32,791 - SchedulerLogger - INFO - Process P0056 dispatched to Core 0
+2026-04-23 23:17:33,016 - SchedulerLogger - DEBUG - Process P0057 added to ready queue
+2026-04-23 23:17:33,211 - SchedulerLogger - INFO - Process P0056 completed on Core 0 (Turnaround: 1.29s)
+2026-04-23 23:17:33,224 - SchedulerLogger - ERROR - Scheduler error: Item I1A31 not found
+2026-04-23 23:17:33,224 - SchedulerLogger - DEBUG - Process P0058 added to ready queue
+2026-04-23 23:17:33,225 - SchedulerLogger - ERROR - Scheduler error: Item I1A33 not found
+2026-04-23 23:17:33,225 - SchedulerLogger - DEBUG - Process P0059 added to ready queue
+2026-04-23 23:17:33,709 - SchedulerLogger - INFO - Process P0059 dispatched to Core 0
+2026-04-23 23:17:33,710 - SchedulerLogger - INFO - Process P0057 dispatched to Core 1
+2026-04-23 23:17:33,817 - SchedulerLogger - INFO - Process P0059 completed on Core 0 (Turnaround: 0.59s)
+2026-04-23 23:17:33,999 - SchedulerLogger - INFO - Process P0057 completed on Core 1 (Turnaround: 0.98s)
+2026-04-23 23:17:34,131 - SchedulerLogger - DEBUG - Process P0060 added to ready queue
+2026-04-23 23:17:34,390 - SchedulerLogger - INFO - Process P0060 dispatched to Core 0
+2026-04-23 23:17:34,392 - SchedulerLogger - INFO - Process P0058 dispatched to Core 1
+2026-04-23 23:17:34,588 - SchedulerLogger - INFO - Process P0060 completed on Core 0 (Turnaround: 0.46s)
+2026-04-23 23:17:34,821 - SchedulerLogger - DEBUG - Process P0061 added to ready queue
+2026-04-23 23:17:34,833 - SchedulerLogger - INFO - Process P0061 dispatched to Core 0
+2026-04-23 23:17:34,875 - SchedulerLogger - INFO - Process P0058 completed on Core 1 (Turnaround: 1.65s)
+2026-04-23 23:17:35,219 - SchedulerLogger - INFO - Process P0061 completed on Core 0 (Turnaround: 0.40s)
+2026-04-23 23:17:35,229 - SchedulerLogger - DEBUG - Process P0062 added to ready queue
+2026-04-23 23:17:35,250 - SchedulerLogger - INFO - Process P0062 dispatched to Core 0
+2026-04-23 23:17:35,535 - SchedulerLogger - DEBUG - Process P0063 added to ready queue
+2026-04-23 23:17:35,548 - SchedulerLogger - INFO - Process P0063 dispatched to Core 1
+2026-04-23 23:17:35,580 - SchedulerLogger - INFO - Process P0062 completed on Core 0 (Turnaround: 0.35s)
+2026-04-23 23:17:35,851 - SchedulerLogger - DEBUG - Process P0064 added to ready queue
+2026-04-23 23:17:35,866 - SchedulerLogger - INFO - Process P0064 dispatched to Core 0
+2026-04-23 23:17:35,997 - SchedulerLogger - INFO - Process P0063 completed on Core 1 (Turnaround: 0.46s)
+2026-04-23 23:17:36,088 - SchedulerLogger - DEBUG - Process P0065 added to ready queue
+2026-04-23 23:17:36,117 - SchedulerLogger - INFO - Process P0065 dispatched to Core 1
+2026-04-23 23:17:36,282 - SchedulerLogger - INFO - Process P0064 completed on Core 0 (Turnaround: 0.43s)
+2026-04-23 23:17:36,311 - SchedulerLogger - INFO - Process P0065 completed on Core 1 (Turnaround: 0.22s)
+2026-04-23 23:17:36,527 - SchedulerLogger - DEBUG - Process P0066 added to ready queue
+2026-04-23 23:17:36,545 - SchedulerLogger - INFO - Process P0066 dispatched to Core 0
+2026-04-23 23:17:36,872 - SchedulerLogger - INFO - Process P0066 completed on Core 0 (Turnaround: 0.34s)
+2026-04-23 23:17:36,908 - SchedulerLogger - DEBUG - Process P0067 added to ready queue
+2026-04-23 23:17:36,929 - SchedulerLogger - INFO - Process P0067 dispatched to Core 0
+2026-04-23 23:17:37,190 - SchedulerLogger - INFO - Process P0067 completed on Core 0 (Turnaround: 0.28s)
+2026-04-23 23:17:37,245 - SchedulerLogger - DEBUG - Process P0068 added to ready queue
+2026-04-23 23:17:37,276 - SchedulerLogger - INFO - Process P0068 dispatched to Core 0
+2026-04-23 23:17:37,595 - SchedulerLogger - DEBUG - Process P0069 added to ready queue
+2026-04-23 23:17:37,609 - SchedulerLogger - INFO - Process P0069 dispatched to Core 1
+2026-04-23 23:17:37,725 - SchedulerLogger - INFO - Process P0068 completed on Core 0 (Turnaround: 0.48s)
+2026-04-23 23:17:37,900 - SchedulerLogger - INFO - Process P0069 completed on Core 1 (Turnaround: 0.30s)
+2026-04-23 23:17:37,943 - SchedulerLogger - DEBUG - Process P0070 added to ready queue
+2026-04-23 23:17:37,959 - SchedulerLogger - INFO - Process P0070 dispatched to Core 0
+2026-04-23 23:17:38,026 - SchedulerLogger - INFO - Process P0070 completed on Core 0 (Turnaround: 0.08s)
+2026-04-23 23:17:38,261 - SchedulerLogger - DEBUG - Process P0071 added to ready queue
+2026-04-23 23:17:38,275 - SchedulerLogger - INFO - Process P0071 dispatched to Core 0
+2026-04-23 23:17:38,560 - SchedulerLogger - DEBUG - Process P0072 added to ready queue
+2026-04-23 23:17:38,577 - SchedulerLogger - INFO - Process P0072 dispatched to Core 1
+2026-04-23 23:17:38,673 - SchedulerLogger - INFO - Process P0071 completed on Core 0 (Turnaround: 0.41s)
+2026-04-23 23:17:38,884 - SchedulerLogger - DEBUG - Process P0073 added to ready queue
+2026-04-23 23:17:38,901 - SchedulerLogger - INFO - Process P0073 dispatched to Core 0
+2026-04-23 23:17:38,984 - SchedulerLogger - INFO - Process P0072 completed on Core 1 (Turnaround: 0.42s)
+2026-04-23 23:17:39,063 - SchedulerLogger - INFO - Process P0073 completed on Core 0 (Turnaround: 0.18s)
+2026-04-23 23:17:39,226 - SchedulerLogger - DEBUG - Process P0074 added to ready queue
+2026-04-23 23:17:39,246 - SchedulerLogger - INFO - Process P0074 dispatched to Core 0
+2026-04-23 23:17:39,468 - SchedulerLogger - INFO - Process P0074 completed on Core 0 (Turnaround: 0.24s)
+2026-04-23 23:17:39,628 - SchedulerLogger - DEBUG - Process P0075 added to ready queue
+2026-04-23 23:17:39,645 - SchedulerLogger - INFO - Process P0075 dispatched to Core 0
+2026-04-23 23:17:39,760 - SchedulerLogger - INFO - Process P0075 completed on Core 0 (Turnaround: 0.13s)
+2026-04-23 23:17:39,971 - SchedulerLogger - DEBUG - Process P0076 added to ready queue
+2026-04-23 23:17:39,993 - SchedulerLogger - INFO - Process P0076 dispatched to Core 0
+2026-04-23 23:17:40,363 - SchedulerLogger - DEBUG - Process P0077 added to ready queue
+2026-04-23 23:17:40,385 - SchedulerLogger - INFO - Process P0077 dispatched to Core 1
+2026-04-23 23:17:40,400 - SchedulerLogger - INFO - Process P0076 completed on Core 0 (Turnaround: 0.43s)
+2026-04-23 23:17:40,593 - SchedulerLogger - INFO - Process P0077 completed on Core 1 (Turnaround: 0.23s)
+2026-04-23 23:17:40,798 - SchedulerLogger - DEBUG - Process P0078 added to ready queue
+2026-04-23 23:17:40,812 - SchedulerLogger - INFO - Process P0078 dispatched to Core 0
+2026-04-23 23:17:41,153 - SchedulerLogger - DEBUG - Process P0079 added to ready queue
+2026-04-23 23:17:41,174 - SchedulerLogger - INFO - Process P0079 dispatched to Core 1
+2026-04-23 23:17:41,244 - SchedulerLogger - INFO - Process P0078 completed on Core 0 (Turnaround: 0.45s)
+2026-04-23 23:17:41,400 - SchedulerLogger - INFO - Process P0079 completed on Core 1 (Turnaround: 0.25s)
+2026-04-23 23:17:41,627 - SchedulerLogger - DEBUG - Process P0080 added to ready queue
+2026-04-23 23:17:42,201 - SchedulerLogger - INFO - Process P0080 dispatched to Core 0
+2026-04-23 23:17:42,479 - SchedulerLogger - DEBUG - Process P0081 added to ready queue
+2026-04-23 23:17:42,578 - SchedulerLogger - INFO - Process P0080 completed on Core 0 (Turnaround: 0.95s)
+2026-04-23 23:17:42,589 - SchedulerLogger - ERROR - Scheduler error: Item I226C not found
+2026-04-23 23:17:42,589 - SchedulerLogger - DEBUG - Process P0082 added to ready queue
+2026-04-23 23:17:42,589 - SchedulerLogger - ERROR - Scheduler error: Item I2270 not found
+2026-04-23 23:17:42,590 - SchedulerLogger - DEBUG - Process P0083 added to ready queue
+2026-04-23 23:17:42,611 - SchedulerLogger - ERROR - Scheduler error: Item I2272 not found
+2026-04-23 23:17:42,611 - SchedulerLogger - DEBUG - Process P0084 added to ready queue
+2026-04-23 23:17:43,308 - SchedulerLogger - INFO - Process P0083 dispatched to Core 0
+2026-04-23 23:17:43,309 - SchedulerLogger - INFO - Process P0084 dispatched to Core 1
+2026-04-23 23:17:43,468 - SchedulerLogger - INFO - Process P0083 completed on Core 0 (Turnaround: 0.88s)
+2026-04-23 23:17:43,528 - SchedulerLogger - DEBUG - Process P0085 added to ready queue
+2026-04-23 23:17:43,549 - SchedulerLogger - ERROR - Scheduler error: Item I22BB not found
+2026-04-23 23:17:43,549 - SchedulerLogger - DEBUG - Process P0086 added to ready queue
+2026-04-23 23:17:43,597 - SchedulerLogger - ERROR - Scheduler error: Item I22BD not found
+2026-04-23 23:17:43,598 - SchedulerLogger - DEBUG - Process P0087 added to ready queue
+2026-04-23 23:17:43,625 - SchedulerLogger - ERROR - Scheduler error: Item I22BF not found
+2026-04-23 23:17:43,625 - SchedulerLogger - DEBUG - Process P0088 added to ready queue
+2026-04-23 23:17:43,673 - SchedulerLogger - ERROR - Scheduler error: Item I22C1 not found
+2026-04-23 23:17:43,674 - SchedulerLogger - DEBUG - Process P0089 added to ready queue
+2026-04-23 23:17:43,697 - SchedulerLogger - ERROR - Scheduler error: Item I22C5 not found
+2026-04-23 23:17:43,698 - SchedulerLogger - DEBUG - Process P0090 added to ready queue
+2026-04-23 23:17:43,702 - SchedulerLogger - INFO - Process P0084 completed on Core 1 (Turnaround: 1.09s)
+2026-04-23 23:17:43,739 - SchedulerLogger - ERROR - Scheduler error: Item I22C7 not found
+2026-04-23 23:17:43,739 - SchedulerLogger - INFO - Process P0085 dispatched to Core 0
+2026-04-23 23:17:43,741 - SchedulerLogger - INFO - Process P0088 dispatched to Core 1
+2026-04-23 23:17:43,938 - SchedulerLogger - INFO - Process P0085 completed on Core 0 (Turnaround: 0.41s)
+2026-04-23 23:17:43,998 - SchedulerLogger - INFO - Process P0088 completed on Core 1 (Turnaround: 0.37s)
+2026-04-23 23:17:44,590 - SchedulerLogger - DEBUG - Process P0091 added to ready queue
+2026-04-23 23:17:45,972 - SchedulerLogger - INFO - Process P0091 dispatched to Core 0
+2026-04-23 23:17:45,974 - SchedulerLogger - INFO - Process P0090 dispatched to Core 1
+2026-04-23 23:17:46,085 - SchedulerLogger - INFO - Process P0091 completed on Core 0 (Turnaround: 1.49s)
+2026-04-23 23:17:46,321 - SchedulerLogger - DEBUG - Process P0092 added to ready queue
+2026-04-23 23:17:46,359 - SchedulerLogger - INFO - Process P0090 completed on Core 1 (Turnaround: 2.66s)
+2026-04-23 23:17:46,938 - SchedulerLogger - INFO - Process P0081 dispatched to Core 0
+2026-04-23 23:17:46,943 - SchedulerLogger - INFO - Process P0087 dispatched to Core 1
+2026-04-23 23:17:47,170 - SchedulerLogger - DEBUG - Process P0093 added to ready queue
+2026-04-23 23:17:47,200 - SchedulerLogger - INFO - Process P0081 completed on Core 0 (Turnaround: 4.72s)
+2026-04-23 23:17:47,378 - SchedulerLogger - INFO - Process P0087 completed on Core 1 (Turnaround: 3.78s)
+2026-04-23 23:17:48,126 - SchedulerLogger - INFO - Process P0093 dispatched to Core 0
+2026-04-23 23:17:48,129 - SchedulerLogger - INFO - Process P0092 dispatched to Core 1
+2026-04-23 23:17:48,244 - SchedulerLogger - INFO - Process P0093 completed on Core 0 (Turnaround: 1.07s)
+2026-04-23 23:17:48,493 - SchedulerLogger - INFO - Process P0092 completed on Core 1 (Turnaround: 2.17s)
+2026-04-23 23:17:48,607 - SchedulerLogger - DEBUG - Process P0094 added to ready queue
+2026-04-23 23:17:49,342 - SchedulerLogger - INFO - Process P0094 dispatched to Core 0
+2026-04-23 23:17:49,344 - SchedulerLogger - INFO - Process P0086 dispatched to Core 1
+2026-04-23 23:17:49,552 - SchedulerLogger - DEBUG - Process P0095 added to ready queue
+2026-04-23 23:17:49,683 - SchedulerLogger - INFO - Process P0086 completed on Core 1 (Turnaround: 6.13s)
+2026-04-23 23:17:49,786 - SchedulerLogger - INFO - Process P0094 completed on Core 0 (Turnaround: 1.18s)
+2026-04-23 23:17:50,510 - SchedulerLogger - INFO - Process P0089 dispatched to Core 0
+2026-04-23 23:17:50,511 - SchedulerLogger - INFO - Process P0082 dispatched to Core 1
+2026-04-23 23:17:50,768 - SchedulerLogger - DEBUG - Process P0096 added to ready queue
+2026-04-23 23:17:50,996 - SchedulerLogger - INFO - Process P0089 completed on Core 0 (Turnaround: 7.32s)
+2026-04-23 23:17:51,011 - SchedulerLogger - INFO - Process P0082 completed on Core 1 (Turnaround: 8.42s)
+2026-04-23 23:17:51,632 - SchedulerLogger - INFO - Process P0096 dispatched to Core 0
+2026-04-23 23:17:51,633 - SchedulerLogger - INFO - Process P0095 dispatched to Core 1
+2026-04-23 23:17:51,840 - SchedulerLogger - DEBUG - Process P0097 added to ready queue
+2026-04-23 23:17:52,038 - SchedulerLogger - INFO - Process P0096 completed on Core 0 (Turnaround: 1.27s)
+2026-04-23 23:17:52,041 - SchedulerLogger - INFO - Process P0095 completed on Core 1 (Turnaround: 2.49s)
+2026-04-23 23:17:52,061 - SchedulerLogger - ERROR - Scheduler error: Item I24BD not found
+2026-04-23 23:17:52,061 - SchedulerLogger - DEBUG - Process P0098 added to ready queue
+2026-04-23 23:17:52,573 - SchedulerLogger - INFO - Process P0098 dispatched to Core 0
+2026-04-23 23:17:52,589 - SchedulerLogger - INFO - Process P0097 dispatched to Core 1
+2026-04-23 23:17:52,835 - SchedulerLogger - DEBUG - Process P0099 added to ready queue
+2026-04-23 23:17:52,974 - SchedulerLogger - INFO - Process P0098 completed on Core 0 (Turnaround: 0.91s)
+2026-04-23 23:17:52,990 - SchedulerLogger - ERROR - Scheduler error: Item I24E7 not found
+2026-04-23 23:17:52,992 - SchedulerLogger - DEBUG - Process P0100 added to ready queue
+2026-04-23 23:17:53,015 - SchedulerLogger - INFO - Process P0097 completed on Core 1 (Turnaround: 1.18s)
+2026-04-23 23:17:53,021 - SchedulerLogger - ERROR - Scheduler error: Item I24E9 not found
+2026-04-23 23:17:53,022 - SchedulerLogger - DEBUG - Process P0101 added to ready queue
+2026-04-23 23:17:53,587 - SchedulerLogger - INFO - Process P0099 dispatched to Core 0
+2026-04-23 23:17:53,594 - SchedulerLogger - INFO - Process P0101 dispatched to Core 1
+2026-04-23 23:17:53,818 - SchedulerLogger - INFO - Process P0099 completed on Core 0 (Turnaround: 0.98s)
+2026-04-23 23:17:53,824 - SchedulerLogger - DEBUG - Process P0102 added to ready queue
+2026-04-23 23:17:53,855 - SchedulerLogger - ERROR - Scheduler error: Item I250F not found
+2026-04-23 23:17:53,856 - SchedulerLogger - DEBUG - Process P0103 added to ready queue
+2026-04-23 23:17:53,856 - SchedulerLogger - ERROR - Scheduler error: Item I2514 not found
+2026-04-23 23:17:53,858 - SchedulerLogger - DEBUG - Process P0104 added to ready queue
+2026-04-23 23:17:54,056 - SchedulerLogger - INFO - ML model retrained
+2026-04-23 23:17:54,056 - SchedulerLogger - INFO - Process P0101 completed on Core 1 (Turnaround: 0.91s)
+2026-04-23 23:17:54,064 - SchedulerLogger - ERROR - Scheduler error: Item I2533 not found
+2026-04-23 23:17:54,067 - SchedulerLogger - DEBUG - Process P0105 added to ready queue
+2026-04-23 23:17:54,070 - SchedulerLogger - ERROR - Scheduler error: Item I2537 not found
+2026-04-23 23:17:54,072 - SchedulerLogger - DEBUG - Process P0106 added to ready queue
+2026-04-23 23:17:54,440 - SchedulerLogger - INFO - Process P0105 dispatched to Core 0
+2026-04-23 23:17:54,450 - SchedulerLogger - INFO - Process P0102 dispatched to Core 1
+2026-04-23 23:17:54,517 - SchedulerLogger - INFO - Process P0102 completed on Core 1 (Turnaround: 0.69s)
+2026-04-23 23:17:54,526 - SchedulerLogger - INFO - Process P0105 completed on Core 0 (Turnaround: 0.46s)
+2026-04-23 23:17:55,022 - SchedulerLogger - DEBUG - Process P0107 added to ready queue
+2026-04-23 23:17:55,731 - SchedulerLogger - INFO - Process P0107 dispatched to Core 0
+2026-04-23 23:17:55,739 - SchedulerLogger - INFO - Process P0103 dispatched to Core 1
+2026-04-23 23:17:55,908 - SchedulerLogger - INFO - Process P0107 completed on Core 0 (Turnaround: 0.89s)
+2026-04-23 23:17:55,943 - SchedulerLogger - DEBUG - Process P0108 added to ready queue
+2026-04-23 23:17:56,188 - SchedulerLogger - INFO - Process P0103 completed on Core 1 (Turnaround: 2.33s)
+2026-04-23 23:17:56,673 - SchedulerLogger - INFO - Process P0108 dispatched to Core 0
+2026-04-23 23:17:56,682 - SchedulerLogger - INFO - Process P0104 dispatched to Core 1
+2026-04-23 23:17:56,782 - SchedulerLogger - INFO - Process P0108 completed on Core 0 (Turnaround: 0.84s)
+2026-04-23 23:17:56,922 - SchedulerLogger - DEBUG - Process P0109 added to ready queue
+2026-04-23 23:17:56,928 - SchedulerLogger - INFO - Process P0104 completed on Core 1 (Turnaround: 3.07s)
+2026-04-23 23:17:57,535 - SchedulerLogger - INFO - Process P0109 dispatched to Core 0
+2026-04-23 23:17:57,543 - SchedulerLogger - INFO - Process P0106 dispatched to Core 1
+2026-04-23 23:17:57,642 - SchedulerLogger - INFO - Process P0109 completed on Core 0 (Turnaround: 0.72s)
+2026-04-23 23:17:57,772 - SchedulerLogger - INFO - Process P0106 completed on Core 1 (Turnaround: 3.70s)
+2026-04-23 23:17:57,960 - SchedulerLogger - DEBUG - Process P0110 added to ready queue
+2026-04-23 23:17:58,652 - SchedulerLogger - INFO - Process P0110 dispatched to Core 0
+2026-04-23 23:17:58,656 - SchedulerLogger - INFO - Process P0100 dispatched to Core 1
+2026-04-23 23:17:58,824 - SchedulerLogger - INFO - Process P0110 completed on Core 0 (Turnaround: 0.86s)
+2026-04-23 23:17:58,888 - SchedulerLogger - DEBUG - Process P0111 added to ready queue
+2026-04-23 23:17:59,116 - SchedulerLogger - INFO - Process P0111 dispatched to Core 0
+2026-04-23 23:17:59,122 - SchedulerLogger - INFO - Process P0100 completed on Core 1 (Turnaround: 6.13s)
+2026-04-23 23:17:59,380 - SchedulerLogger - INFO - Process P0111 completed on Core 0 (Turnaround: 0.49s)
+2026-04-23 23:18:01,603 - SchedulerLogger - INFO - Scheduler stopped
